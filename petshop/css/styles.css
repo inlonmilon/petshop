@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+header{
+    font-family: "Nunito", sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#logo img{
+    width: 2.5rem;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    background-color: #007DC5;
+    border-radius: 999px;
+    padding: .5rem 1.5rem;
+}
+
+#hero{
+    height: 80vh;
+    width: 80%;
+    background-color: #fff3d9;
+    margin: 0 auto;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+}
+
+#hero *{
+    flex: 1 1 0;
+}
+
+#hero div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+#hero img{
+    height: 100%;
+}
+
+#hero h1{
+    font-family: "Source Sans 3", sans-serif;
+    width: 80%;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+#hero p{
+    font-family: "Asap", sans-serif;
+    width: 80%;
+}
+
+#hero h1 span{
+    color: #FEAC01;
+}
+
+#hero a{
+    width: fit-content;
+    padding: .5 rem 4rem;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+}
